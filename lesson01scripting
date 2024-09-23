@@ -1,0 +1,33 @@
+import os
+
+os.system('cls' if os.name == 'nt' else 'clear')
+max = 10
+x = 82 - 40
+y = 'The meaning'
+z = 42
+start = 'Script started'
+end = 'Script ended'
+
+print(start)
+# print("Hello VFX")
+
+#print(max)
+
+#for i in range(max):
+    #print(i) 
+    
+if x == z or y == 'Guide':
+    y = y + ' of Life'
+    
+if (x == 10):
+    print("x == 10")
+    
+x = x * 10
+
+if (x == 100):
+    print("x == 100")
+    
+print(z)
+print(y)
+    
+print(end)
